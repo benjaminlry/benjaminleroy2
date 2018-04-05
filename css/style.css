@@ -1,13 +1,10 @@
 @charset "UTF-8";
 
 /*
-
 Style   : Benjamin LEROY
 Version : 1.0
 Author  : Benjamin LEROY
-
 Copyright © All rights Reserved 
-
 */
 
 
@@ -23,7 +20,10 @@ Copyright © All rights Reserved
 7. PRICING
 8. CALL TO ACTION
 9. FOOTER
-
+10. PROGRAMMATION
+11. GRAPHISME
+12. PHOTOGRAPHIE
+13. SPORT AUTOMOBILE
 ------------------------*/
 
 
@@ -674,62 +674,17 @@ header {
     }
 }
 
-#img-logo-1 {
-    margin: 1.5em;
-    width: 21% !important;
-    //height: 190px !important;
-    //width: 180px !important;
-    display: inline !important;
-}
-
-#img-logo-2 {
-    margin: 1em;
-    width: 31% !important;
-    //height: 100px !important;
-    //width: 230px !important;
-    display: inline !important;
-}
-
-#img-logo-3 {
-    margin: 1em;
-    width: 31% !important;
-    //height: 30px !important;
-    //width: 240px !important;
-    display: inline !important;
-}
-
-#imgCalendrier {
-    margin: 1.5em;
-    width: 30% !important;
-    display: inline !important;
-}
-
-.img-logos {
-    opacity: 0.35;
-    transition: opacity 0.5s;
-}
+/* PROGRAMMATION */
 
 .programmation-img {
     margin: 1.5em;
-    width: 44% !important;
+    width: 50% !important;
     display: inline !important;
 }
 
 .programmation-img-RA {
-    margin: 1.5em;
-    width: 22% !important;
-    display: inline !important;
-}
-
-.graphisme-img {
-    margin: 1.5em;
-    width: 40% !important;
-    display: inline !important;
-}
-
-#img-vectorielle {
-    margin: 1.5em;
-    width: 40% !important;
+    margin: 1em;
+    width: 35% !important;
     display: inline !important;
 }
 
@@ -738,53 +693,84 @@ header {
     transition: opacity 0.5s;
 }
 
-#img-logos-graph:hover {
-    opacity: 1;
-    transition: opacity 0.5s;
-}
-
 .logo-programmation {
     margin: 1.5em;
-    //width: 7%;
     width: 4.3em;
     opacity: 0.35;
     transition: opacity 0.5s;
  }
 
 .logo-programmation:hover {
-    //width: 7%;
     width: 4.3em;
     opacity: 1;
     transition: opacity 0.5s;
  }
 
 #greyJS {
-    //width: 7.6%;
     width: 4.8em;
  }
 
 #greyPhp {
-    //width: 9.5%;
     width: 6.8em;
  }
 
 #greyCsharp {
-    //width: 8.7%;
     width: 5.8em;
  }
 
 #greySql {
-    //width: 7.7%;
     width: 5em;
  }
 
 #greyAndroid {
-    //width: 12%;
     width: 8.3em;
  }
 
 .all-logos-programmation {
     padding-top: -3em;
+}
+
+/* GRAPHISME */
+
+#img-logo-3 {
+    margin: 1em;
+    width: 70% !important;
+    display: inline !important;
+}
+
+#img-logo-1 {
+    margin: 1em;
+    width: 25% !important;
+    display: inline !important;
+}
+
+#img-logo-2 {
+    margin: 1em;
+    width: 45% !important;
+    display: inline !important;
+}
+
+#img-vectorielle {
+    margin: 1.5em;
+    width: 65% !important;
+    display: inline !important;
+}
+
+#imgCalendrier {
+    margin: 1.5em;
+    width: 45% !important;
+    display: inline !important;
+}
+
+.graphisme-img {
+    margin: 1.5em;
+    width: 70% !important;
+    display: inline !important;
+}
+
+#img-logos-graph:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
 .logo-graphique {
@@ -801,6 +787,39 @@ header {
     opacity: 1;
     transition: opacity 0.5s;
  }
+
+.img-logos {
+    opacity: 0.35;
+    transition: opacity 0.5s;
+}
+
+/* PHOTOGRAPHIE */
+
+.photo-horiz {
+    margin: 1em;
+    width: 90% !important;
+    display: inline !important;
+}
+
+.photo-verti {
+    margin: 1em;
+    width: 40% !important;
+    display: inline !important;
+}
+
+/* SPORT AUTOMOBILE */
+
+#photo-rallye-1 {
+    margin: 1em;
+    width: 62% !important;
+    display: inline !important;
+}
+
+#photo-rallye-2 {
+    margin: 1em;
+    width: 62% !important;
+    display: inline !important;
+}
 
 .copyright {
     padding-top: 1em;
