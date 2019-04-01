@@ -9,9 +9,6 @@ Copyright © All rights Reserved
 
 */
 
-// Redirection vers https://benjaminleroy.fr
-document.location.href="https://benjaminleroy.fr"
-
 $(function() {
     "use strict"; 
 
